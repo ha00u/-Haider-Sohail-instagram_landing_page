@@ -1,0 +1,104 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 175px;
+}
+
+.login-form, .signup-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #00376b;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.or {
+    padding: 0 15px;
+    color: #8e8e8e;
+}
+
+.facebook-login {
+    display: flex;
+    align-items: center;
+    color: #385185;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.facebook-login img {
+    width: 20px;
+    margin-right: 15px;
+}
+
+.forgot-password, .login-link {
+    color: #00376b;
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .login-form, .signup-form {
+        max-width: 80%;
+    }
+}
